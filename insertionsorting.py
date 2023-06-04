@@ -13,6 +13,7 @@ def insertionsort(arr):
                     break
             arr[j]=toinsert
 
-l=[3,5,1,4,8,4,0]
+n=int(input())
+l=list(map(int,input().split()))[:n]
 insertionsort(l)
 print('sorted= ',l)

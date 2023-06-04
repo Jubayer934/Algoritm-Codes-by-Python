@@ -30,5 +30,5 @@ ____
 
 [Selection Sort](https://github.com/Jubayer934/Algoritm-Codes-by-Python/blob/master/selectionSort.py)</li></ol>
 
-<li><h3>Part Two</h3>
+<li><h3>Part Two</h3>sts
 </li>
