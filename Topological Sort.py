@@ -14,7 +14,7 @@ def dfs(u):
     print('Visiting ',u)
 
     for v in graph[u]:
-        if v==False:
+        if not visited[v]:
             dfs(v) 
     print('Backtracking ',u)
     topsort.append(u)
