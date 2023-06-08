@@ -31,7 +31,7 @@ ____
 [Selection Sort](https://github.com/Jubayer934/Algoritm-Codes-by-Python/blob/master/selectionSort.py)</li></ol>
 
 <li><h3>Part Two</h3>
-
+<ol>
 <li>
 
 [BFS and sortest path](https://github.com/Jubayer934/Algoritm-Codes-by-Python/blob/master/BFS%20and%20sortest%20path.py)</li>
@@ -57,4 +57,5 @@ ____
 <li>
 
 [insertionFirstStep](https://github.com/Jubayer934/Algoritm-Codes-by-Python/blob/master/insertionFirstStep.py)</li>
+</ol>
 </li>
