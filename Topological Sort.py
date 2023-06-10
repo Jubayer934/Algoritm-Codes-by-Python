@@ -1,11 +1,10 @@
-graph = [[1,4],
-         [2,4],
-         [3,5],
-         [],
-         [5],
-         [3]]
-
-n = len(graph)
+n=int(input())
+graph=[]
+elemants=[]
+for i in range(n):
+    elemants=list(map(int,input().split()))
+    graph.append(elemants)
+print(graph)
 visited = [False]*n
 topsort = []
 
@@ -19,6 +18,9 @@ def dfs(u):
     print('Backtracking ',u)
     topsort.append(u)
 
-dfs(0)
+
+for i in range (n):
+    if visited[i]==False:
+        dfs(i)
 topsort.reverse()
 print(topsort)
