@@ -13,22 +13,19 @@ graph = [[1,9],
          []]
 n = len(graph)
 prev = [-1]*n
+q = []
+visited = [False]*n
+path = []
+
 def shortestPath(graph,u,v):
-    q = []
 
     q.append(u)
 
 
-
-    visited = [False]*n
-
     visited[u] = True
-
-    
 
     while len(q)!=0:
         node = q.pop(0)
-
 
         for neighbor in graph[node]:
             
@@ -37,8 +34,6 @@ def shortestPath(graph,u,v):
                 prev[neighbor] = node
 
                 visited[neighbor] = True
-
-    path = []
 
     i = v
     while i != -1:
