@@ -18,7 +18,7 @@ def shortestPath(graph,u,v):
 
     q.append(u)
 
-    n = len(graph)
+
 
     visited = [False]*n
 
