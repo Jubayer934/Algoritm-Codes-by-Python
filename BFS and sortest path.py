@@ -35,7 +35,6 @@ def shortestPath(graph,u,v):
 
                 visited[neighbor] = True
 
-
     while v != -1:
         path.append(v)
         v = prev[v]
